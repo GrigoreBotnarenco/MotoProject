@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Contact</title>
+    <title>Proiectul Meu</title>
 </head>
 <body>
     <header>
@@ -14,14 +14,33 @@
         </div>
         <nav>
             <ul>
-                <li><a href="index.html">Toate motocicletele</a></li>
-                <li><a href="about.html">Despre noi</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html"><i class="fa-solid fa-motorcycle"></i> Toate</a></li>
+                <li><a href="about.html"><i class="fa-solid fa-circle-info"></i> Despre noi</a></li>
+                <li><a href="contact.html"><i class="fa-solid fa-address-book"></i> Contact</a></li>
             </ul>
         </nav>
+        
+        <div class="search-box">
+            <button class="btn-search"><i class="fas fa-search"></i></button>
+            <input type="text" class="input-search" placeholder="Search...">
+          </div>
     </header>
-    <h1>Contact</h1>
-    <p>Aici este informația de contact.</p>
+    
+    <div class="menu">
+        <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+        <label for="burger-checkbox" class="burger"></label>
+        <ul class="menu-list">
+            <li><a href="sport.html" class="menu-item">Sport</a><li>
+            <li><a href="cruiser.html" class="menu-item">Cruiser</a><li>
+            <li><a href="naked.html" class="menu-item">Naked</a><li>
+            <li><a href="touring.html" class="menu-item">Touring</a><li>
+        </ul>
+    </div>
+
+
+
+
+
     <script src="../js/script.js"></script>
 </body>
 </html>
