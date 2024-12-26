@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+  }
+
+  body{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+   font-family: sans-serif;
+  }
+
+header {
+    background-color: hsl(37, 65%, 59%); 
+    height: 100px;
+    color: white; 
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+header nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+header nav ul {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+header nav ul li {
+    position: relative;
+    display: inline;
+    margin-right: 20px;
+    transition: color 0.3s;
+}
+header nav ul li a {
+    text-decoration: none; 
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px; 
+    transition: background-color 0.3s, color 0.3s;
+}
+header nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ff2a00;
+}
+#logo img {
+   height: 90px; 
+}
+
+.search-box{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-right: 60px;
+  
+  }
+  .input-search{
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+    background-color: #ff2a00;
+    padding-right: 40px;
+    color:#fff;
+  }
+  .input-search::placeholder{
+    color:rgba(255,255,255,.5);
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 100;
+  }
+  .btn-search{
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    color:#ffffff ;
+    background-color:transparent;
+    pointer-events: painted;  
+  }
+  .btn-search:focus ~ .input-search{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(255,255,255,.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
+  .input-search:focus{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(255,255,255,.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
+
+  .burger-checkbox {
+    position: absolute;
+    visibility: hidden;
+  }
+  .burger {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    border: none;
+    background: transparent;
+    width: 40px;
+    height: 26px;
+  }
+  .burger::before,
+  .burger::after {
+    content: '';
+    left: 0;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 10px;
+    background: #ff2a00;
+  }
+  .burger::before {
+    top: 0;
+    box-shadow: 0 11px 0 #000000;
+    transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
+  }
+  .burger::after {
+    bottom: 0;
+    transition: bottom .3s .15s, transform .3s;
+  }
+  .burger-checkbox:checked + .burger::before {
+    top: 11px;
+    transform: rotate(45deg);
+    box-shadow: 0 6px 0 rgba(0,0,0,0);
+    transition: box-shadow .15s, top .3s, transform .3s .15s;
+  }
+  .burger-checkbox:checked + .burger::after {
+    bottom: 11px;
+    transform: rotate(-45deg);
+    transition: bottom .3s, transform .3s .15s;
+  }
+
+.menu {
+    display: flex;
+    margin-top: 15px;
+   margin-left: 15px;
+   margin-right: 15px ;
+}
+  .menu-list {
+    top: 155px;
+    left: 0px;
+    position: absolute;
+    display: grid;
+    gap: 12px;
+    padding: 42px 0;
+    margin: 0;
+    background: rgb(208, 127, 41);
+    list-style-type: none;
+    transform: translateX(-100%);
+    transition: .3s;
+    width: 200px;
+  }
+  .menu-item {
+    display: block;
+    padding: 8px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .menu-item:hover {
+    background: rgba(255,255,255,.2)
+  }
+  .burger-checkbox:checked ~ .menu-list {
+    transform: translateX(0);
+  }
