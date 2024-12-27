@@ -38,3 +38,4 @@ searchInput.addEventListener('blur', function(event) {
         menuList.style.display = 'none'; 
     }
 });
+
