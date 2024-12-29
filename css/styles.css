@@ -476,3 +476,97 @@ footer hr {
 .map {
     margin-top: 20px;
 }
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 10px;
+  flex: 1 1 calc(30% - 40px);
+  max-width: 300px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#motorcycle-container {
+  display:flex;
+  flex-direction: row;;
+}
+
+.card h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1em;
+  color: #555;
+  margin: 5px 0;
+}
+
+.card .icon {
+  margin-right: 5px;
+  color: #007bff;
+}
+
+.card .slider {
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+}
+
+.card .slide {
+  display: none;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.card .active {
+  display: block;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.card .prev, .card .next {
+  position: absolute;
+  top: 28%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 10;
+  width: 30px; 
+  height: 30px; 
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+.card .prev {
+  left: 20px;
+}
+
+.card .next {
+  right: 20px; 
+}
+
+.card .prev:hover, .card .next:hover {
+  background-color: rgba(255, 255, 255, 1);
+}

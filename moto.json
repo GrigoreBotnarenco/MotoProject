@@ -1,0 +1,82 @@
+[
+    {
+        "marca": "Yamaha",
+        "model": "YZF-R1",
+        "categorie": "Sport",
+        "putere_cc": 998,
+        "hp": 200,
+        "anul_producerii": 2020,
+        "descriere": "Motocicleta sportiva cu performante de varf.",
+        "pret": 22000,
+        "imagini": [
+            "/images/products/YZF-R1-1.webp",
+            "/images/products/YZF-R1-2.webp",
+            "/images/products/YZF-R1-3.webp",
+            "/images/products/YZF-R1-4.webp"
+        ]
+    },
+    {
+        "marca": "Yamaha",
+        "model": "YZF-R1",
+        "categorie": "Sport",
+        "putere_cc": 998,
+        "hp": 200,
+        "anul_producerii": 2020,
+        "descriere": "Motocicleta sportiva cu performante de varf.",
+        "pret": 22000,
+        "imagini": [
+            "/images/products/YZF-R1-1.webp",
+            "/images/products/YZF-R1-2.webp",
+            "/images/products/YZF-R1-3.webp",
+            "/images/products/YZF-R1-4.webp"
+        ]
+    },
+{
+    "marca": "Yamaha",
+    "model": "YZF-R1",
+    "categorie": "Sport",
+    "putere_cc": 998,
+    "hp": 200,
+    "anul_producerii": 2020,
+    "descriere": "Motocicleta sportiva cu performante de varf.",
+    "pret": 22000,
+    "imagini": [
+        "/images/products/YZF-R1-1.webp",
+        "/images/products/YZF-R1-2.webp",
+        "/images/products/YZF-R1-3.webp",
+        "/images/products/YZF-R1-4.webp"
+    ]
+},
+{
+    "marca": "Yamaha",
+    "model": "YZF-R1",
+    "categorie": "Sport",
+    "putere_cc": 998,
+    "hp": 200,
+    "anul_producerii": 2020,
+    "descriere": "Motocicleta sportiva cu performante de varf.",
+    "pret": 22000,
+    "imagini": [
+        "/images/products/YZF-R1-1.webp",
+        "/images/products/YZF-R1-2.webp",
+        "/images/products/YZF-R1-3.webp",
+        "/images/products/YZF-R1-4.webp"
+    ]
+},
+{
+    "marca": "Yamaha",
+    "model": "YZF-R1",
+    "categorie": "Sport",
+    "putere_cc": 998,
+    "hp": 200,
+    "anul_producerii": 2020,
+    "descriere": "Motocicleta sportiva cu performante de varf.",
+    "pret": 22000,
+    "imagini": [
+        "/images/products/YZF-R1-1.webp",
+        "/images/products/YZF-R1-2.webp",
+        "/images/products/YZF-R1-3.webp",
+        "/images/products/YZF-R1-4.webp"
+    ]
+}
+]
